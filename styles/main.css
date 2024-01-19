@@ -181,3 +181,29 @@ li{
         padding-left: 0;
     }
 }
+
+/* Footer Styles */
+
+footer {
+    background-color: var(--child-color);
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+  
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* Icons */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+  }
