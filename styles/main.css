@@ -88,7 +88,7 @@ li{
 
 #socials--list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     column-gap: 1em;
     flex-wrap: wrap;
 }
@@ -98,6 +98,7 @@ li{
     color: var(--secondaryTextColor);
     font-size: 0.9em;
     transition: 0.3s;
+    width: 30%;
 }
 
 #socials--list a:hover{
